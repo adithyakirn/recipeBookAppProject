@@ -1,4 +1,5 @@
-const API_KEY = "be2606a0ade44d098984cce298730dc4";
+
+import { API_KEY } from "./config.js";
 const recipeList = document.getElementById(`items`);
 
 function displayRecipes(recipes){
